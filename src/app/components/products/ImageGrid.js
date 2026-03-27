@@ -24,7 +24,9 @@ export default function ImageGrid() {
     <>
       {/* LAYER PRODUTOS */}
       <div className="grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 bg-[#F2F2F2] overflow-hidden max-h-[500px] overflow-y-auto table-scroll">
-        {products.filter(el => el.category == selectedCategory).map((product, index) => (
+        {/*
+        Esse filtro está retornando erro
+        products.filter(el => el.category == selectedCategory).map((product, index) => (
           <div
             key={index}
             className="relative w-full h-[150px] sm:h-[200px] md:h-[250px] lg:h-[350px] cursor-pointer"
@@ -45,7 +47,7 @@ export default function ImageGrid() {
               {product.subtitle}
             </p>
           </div>
-        ))}
+        )) */}
       </div>
     </>
   );
