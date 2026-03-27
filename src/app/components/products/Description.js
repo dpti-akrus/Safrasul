@@ -20,7 +20,7 @@ export default function Description() {
         ))}
       </div>
 
-      {/* Seção da imagem */}
+      {/* Seção da imagem 
       <div className="px-4 sm:px-10 md:px-20 lg:px-40 xl:px-80 pb-10 md:pb-24">
         <div className="relative w-full h-auto">
           <Image
@@ -33,6 +33,7 @@ export default function Description() {
           />
         </div>
       </div>
+      */}
     </>
   )
 }
