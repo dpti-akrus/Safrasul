@@ -57,6 +57,7 @@ const Footer = forwardRef((props, ref) => {
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center px-8 xl:px-36 py-4">
           <p className="text-white font-openSans font-light mb-4 md:mb-0">© 2024 Safrasul Sementes</p>
+          <a href="/privacidade" target="_blank" rel="noopener noreferrer"><p className="text-white font-openSans font-light mb-4 md:mb-0">Política de Privacidade</p></a>
           <div className="flex">
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
               <img className="px-2 w-8 h-8" src="/icons/instagram.svg" alt="Instagram" />
